@@ -12,7 +12,9 @@ scalacOptions += "-deprecation"
 
 resolvers += ScalaToolsSnapshots
 
-libraryDependencies += "org.scalatest" %% "scalatest" % "2.0.M4" % "test"
+libraryDependencies += "org.scalatest" % "scalatest_2.10.0-M7" % "2.0.M4-2.10.0-M7-B1" % "test"
+
+libraryDependencies += "org.scala-lang" % "scala-actors" % "2.10.0-M7" % "test"
 
 libraryDependencies += "junit" % "junit" % "4.5" % "test"
 
