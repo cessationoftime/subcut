@@ -10,7 +10,7 @@ scalaVersion := "2.10.0-M7"
 
 scalacOptions += "-deprecation"
 
-resolvers += ScalaToolsSnapshots
+//resolvers += ScalaToolsSnapshots
 
 libraryDependencies += "org.scalatest" % "scalatest_2.10.0-M7" % "2.0.M4-2.10.0-M7-B1" % "test"
 
