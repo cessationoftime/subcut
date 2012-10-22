@@ -4,17 +4,17 @@ organization := "org.scala-tools.subcut"
 
 version := "1.1-SNAPSHOT"
 
-crossScalaVersions := Seq("2.10.0-M7","2.9.2", "2.9.1-1", "2.9.1","2.9.0-1","2.9.0")
+crossScalaVersions := Seq("2.10.0-RC1","2.10.0-M7")
 
-scalaVersion := "2.10.0-M7"
+scalaVersion := "2.10.0-RC1"
 
 scalacOptions += "-deprecation"
 
 //resolvers += ScalaToolsSnapshots
 
-libraryDependencies += "org.scalatest" % "scalatest_2.10.0-M7" % "2.0.M4-2.10.0-M7-B1" % "test"
+libraryDependencies += "org.scalatest" % "scalatest_2.10.0-RC1" % "2.0.M4-2.10.0-RC1-B1" % "test"
 
-libraryDependencies += "org.scala-lang" % "scala-actors" % "2.10.0-M7" % "test"
+libraryDependencies += "org.scala-lang" % "scala-actors" % "2.10.0-RC1" % "test"
 
 libraryDependencies += "junit" % "junit" % "4.5" % "test"
 
